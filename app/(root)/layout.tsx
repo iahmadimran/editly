@@ -1,3 +1,5 @@
+import MobileNav from "@/components/shared/MobileNav"
+import Sidebar from "@/components/shared/Sidebar"
 import { currentUser } from "@clerk/nextjs/server"
 import { redirect } from "next/navigation"
 import { ReactNode } from "react"
@@ -10,6 +12,9 @@ const Layout = async ({ children }: { children: ReactNode }) => {
   }
   return (
     <main className="root">
+      <Sidebar />
+      <MobileNav />
+
       <div className="root-container">
         <div className="wrapper">
           {children}

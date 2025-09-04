@@ -302,7 +302,7 @@
   }
 
   .header-nav_elements {
-    @apply mt-8 flex w-full flex-col items-start gap-5;
+    @apply mt-2 flex w-full flex-col items-start gap-1;
   }
 
   /* Search Component */
@@ -320,7 +320,7 @@
   }
 
   .sidebar-nav {
-    @apply h-full flex-col justify-between md:flex md:gap-4;
+    @apply h-screen flex-col justify-between md:flex md:gap-4;
   }
 
   .sidebar-nav_elements {
